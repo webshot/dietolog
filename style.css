@@ -1,0 +1,195 @@
+@keyframes svap {
+  0% {
+    background: linear-gradient(256deg, #32645b 0%, #7eb5aa 100%);
+  }
+  100% {
+    background: linear-gradient(256deg, #7eb5aa 0%, #32645b 100%);
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+
+  color: white;
+  font-family: 'inter';
+}
+body {
+  background-color: #5b9086;
+}
+.information {
+  margin-top: -30px;
+}
+.decor {
+  width: 100%;
+  margin-bottom: -3px;
+}
+.decoration-one {
+  margin-top: -40px;
+}
+.decoration-two {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.block-information {
+  text-align: center;
+}
+.button {
+  padding: 15px 60px;
+  background: linear-gradient(256deg, #32645b 0%, #7eb5aa 100%);
+  border: none;
+  cursor: pointer;
+
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.photo {
+  width: 10%;
+}
+.block-hello {
+  margin-bottom: 20px;
+}
+.under-text {
+  margin-bottom: 20px;
+}
+.arrow-block {
+  margin-top: 40px;
+  text-align: center;
+}
+.arrow {
+  width: 2%;
+}
+.container {
+  margin: 0 auto;
+  width: 1300px;
+}
+.block-name {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(256deg, #32645b 0%, #7eb5aa 100%);
+  text-align: center;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.block-text {
+  padding-top: 35px;
+}
+.block-type {
+  margin-top: 200px;
+}
+.block {
+  display: flex;
+  margin-top: 40px;
+}
+.width-photo {
+  width: 80%;
+}
+.block-club {
+  margin-top: 51px;
+  justify-content: center;
+  display: grid;
+}
+.block-info {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  background-color: black;
+  margin-bottom: 300px;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.block-name-club {
+  padding-top: 200px;
+  text-align: center;
+  width: 50%;
+  background: linear-gradient(256deg, #32645b 0%, #7eb5aa 100%);
+}
+.block-info-club {
+  height: 500px;
+  background-color: white;
+  width: 50%;
+  color: black;
+  text-align: center;
+}
+.btn {
+  padding: 15px 60px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.block-name-club-one {
+  display: none;
+}
+.block-info-club-two {
+  display: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    margin: 0 auto;
+    width: 793px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .block-name-club-one {
+    margin-top: 50px;
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(256deg, #32645b 0%, #7eb5aa 100%);
+  }
+  .block-info-club-two {
+    display: block;
+    height: 400px;
+    background-color: white;
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-bottom: 200px;
+  }
+  .block-club {
+    display: none;
+  }
+}
+@media screen and (max-width: 741px) {
+  .container {
+    margin: 0 auto;
+    width: 685px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    margin: 0 auto;
+    width: 370px;
+  }
+  .block {
+    display: block;
+    text-align: center;
+  }
+  .width-photo {
+    width: 40%;
+  }
+  .information {
+    margin-top: 89px;
+  }
+  .photo {
+    width: 50%;
+  }
+  .arrow {
+    width: 8%;
+  }
+  .decoration-one {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    margin: 0 auto;
+    width: 310px;
+  }
+}
